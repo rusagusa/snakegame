@@ -1,0 +1,41 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Inner bezel border to feel like an arcade screen -->
+    <path
+        android:pathData="M16,16 L92,16 L92,92 L16,92 Z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#00FFF0"
+        android:strokeAlpha="0.3" />
+
+    <!-- Winding Neon Snake Body -->
+    <path
+        android:pathData="M 28,72 L 48,72 L 48,44 L 80,44 L 80,24"
+        android:strokeColor="#39FF14"
+        android:strokeWidth="9"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Cute Eyes on Snake Head (at top-right end 80, 24) -->
+    <path
+        android:pathData="M 77,21 A 1.8,1.8 0 1 1 76.9,21"
+        android:fillColor="#000000" />
+    <path
+        android:pathData="M 83,21 A 1.8,1.8 0 1 1 82.9,21"
+        android:fillColor="#000000" />
+
+    <!-- Pulsing Neon Cherry / Apple Food -->
+    <path
+        android:pathData="M 28,34 A 6,6 0 1 1 27.9,34"
+        android:fillColor="#FF007F" />
+
+    <!-- Little Leaf/Stem on Food -->
+    <path
+        android:pathData="M 28,28 Q 31,25 33,26"
+        android:strokeColor="#39FF14"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round" />
+</vector>
